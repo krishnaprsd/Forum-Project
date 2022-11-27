@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ADVENTURE </title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo"> ADVENTURE </h1>
+        <ul class="nav-links">
+            <li class="active"> <a href="#"> </a> Home </li>
+            <li> <a href="#"> </a> Tours </li>
+            <li> <a href="#"> </a> Explore</li>
+            <li> <a href="#"> </a> About </li>
+            <li class="ctn"> <a href="#"> </a> Contact </li>
+        </ul>
+        <img src="./photo/menu1.jpg" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2> Explore the colorfull world</h2>
+            <div class="line"> </div>
+            <h1> A WONDERFUL GIFT!</h1>
+            <a href="#" class="ctn"> Learn </a>
+
+        </div>
+    </header>
+
+    <!-- == Events == -->
+    <section class="events">
+        <div class="title">
+            <h1> Upcoming Events</h1>
+            <div class="line"> </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./photo/16.jpg" alt="">
+                <h4> Intro Computer </h4>
+                <p> This is how computer works the computer is devices which gives us...</p>
+                <a href="#" class="ctn"> Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./photo/16.jpg" alt="">
+                <h4> Microsoft </h4>
+                <p> This is how computer works the computer is devices which gives us...</p>
+                <a href="#" class="ctn"> Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1> EXPLORE THE WORLD</h1>
+            <div class="line"> </div>
+            <P> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae soluta sed laudantium corporis! Iste
+                maxime maiores sequi saepe laboriosam quo harum quas molestiae earum debitis.</P>
+            <a href="#" class="ctn"> Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1> UPCOMING TOURS & DESTINATION </h1>
+                <div class="line"></div>
+                <P> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tempora sit accusantium
+                    blanditiis, voluptatem laborum neque illo et optio placeat ad fugit obcaecati sapiente
+                    tempore, harum saepe, unde minus ex.</P>
+                <a href="#" class="ctn"> Learn More </a>
+            </div>
+
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./photo/17.jpg" alt="">
+                    <img src="./photo/21.jpg" alt="">
+                    <img src="./photo/12.jpg" alt="">
+                    <img src="./photo/20.jpg" alt="">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer"> 
+        <p> 839, 11th B cross, Agb layout, Banglore -560090 / Phone: 9113341247 / krishnakumarsah142@gmail.com</p>
+        <p> Copyright @ 2020 Outdoor Adventure</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlists = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classlist.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>
